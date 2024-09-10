@@ -1,0 +1,154 @@
+.header {
+    display: flex;
+    background: #1F2937;
+    color: white;
+    height: 42px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    background: #1F2937;
+    color: white;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerleft {
+    display: flex;
+    padding-left: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.headerright {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-right: 210px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container1 {
+    display: flex;
+    background: #1F2937;
+    color: white;
+    height: 150px;
+    align-content: center;
+    justify-content: center;
+    padding: 150px;
+    gap: 20px;
+}
+
+.container1right {
+    background-color: gray;
+    width: 400px;
+    height: 190px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1left {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.leftext1 {
+    font-size: 48px;
+    font-weight: 900px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.leftext2 {
+    width: 350px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+    width: 85px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    width: 30px;
+    border: 5px solid #3882f6;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.multbox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.boxset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.quote {
+    background-color: lightgray;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.bluebox {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 750px;
+    gap: 100px;
+    
+}
+
+.bluetext {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.whitebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
